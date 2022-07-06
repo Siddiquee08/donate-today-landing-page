@@ -57,7 +57,7 @@ body{
     
 }
 
-h3{
+.amount h3{
     padding: 50px 10px;
     text-decoration: none;
     color: gray;
@@ -67,7 +67,7 @@ h3{
     box-shadow: 5px 5px 5px rgb(148, 145, 145);
 }
 
-.selection{
+#selection{
     color: tomato;
     border: 1px solid #ffaaaa;
     background-color: #FFAAAA;
@@ -75,6 +75,7 @@ h3{
 
 .other{
     text-align: center;
+    margin-bottom: 5%;
 }
 
 .user-defined{
@@ -84,4 +85,85 @@ h3{
     border: 0;
     outline: 0;
     border-bottom: 2px solid gainsboro;
+}
+.donate-plan h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donate-plan p{
+    text-align: center;
+    color: gray;
+    font-size: 85%;
+    margin-bottom: 15px;
+}
+.plan{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.block-one img {
+    width: 8%;
+}
+.block-one{
+    background-color: antiquewhite;
+    padding: 20px 10px;
+    width: 20%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.block-one h3 {
+    margin-bottom: 5px;
+}
+.block-one p{
+    text-align: justify;
+}
+.block-two img {
+    width: 8%;
+}
+.block-two{
+    background-color: pink;
+    padding: 20px 10px;
+    width: 20%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.block-two h3 {
+    margin-bottom: 5px;
+}
+.block-two p{
+    text-align: justify;
+}
+.block-three img {
+    width: 8%;
+}
+.block-three{
+    background-color: mintcream;
+    padding: 20px 10px;
+    width: 20%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.block-three h3 {
+    margin-bottom: 5px;
+}
+.block-three p{
+    text-align: justify;
+}
+
+footer{
+    background-color: black;
+}
+footer h2{
+    color: maroon;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Pacifico', cursive;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 50%;
 }
