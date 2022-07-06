@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    background-image: url(/images/donation6.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.banner{
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;   
+}
+.donate-now {
+    color: white;
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(red, tomato);
+}
+
+.banner h1 {
+    color: white;
+    margin-bottom: 7px;
+}
+.banner p {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 85%;
+}
+.donation-top{
+    text-align: center;
+}
+.donation-top h1 {
+    margin-bottom: 20px;
+}
+.donation-top p{
+    color: gray;
+    font-size: 85%;
+    margin-bottom: 15px;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+h3{
+    padding: 50px 10px;
+    text-decoration: none;
+    color: gray;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    margin-right: 15px;
+    box-shadow: 5px 5px 5px rgb(148, 145, 145);
+}
+
+.selection{
+    color: tomato;
+    border: 1px solid #ffaaaa;
+    background-color: #FFAAAA;
+}
